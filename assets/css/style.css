@@ -15,7 +15,6 @@
     grid-area: encabezado;
 }
 .contenido {
-    background-color: yellow;
     grid-area: contenido;
 }
 .rodapie { 
