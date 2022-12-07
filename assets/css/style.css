@@ -1,18 +1,24 @@
 .app {
     background: #f1f1f1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    display: grid;
+    grid-template-areas: 
+    "encabezado"
+    "contenido"
+    "rodapie";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto; 
 }
 
 .encabezado {
-
-    
+    background-color: red;
+    grid-area: encabezado;
 }
 .contenido {
-
+    background-color: yellow;
+    grid-area: contenido;
 }
-
 .rodapie { 
-
-    
+    background-color: blue;
+    grid-area: rodapie;
 }
